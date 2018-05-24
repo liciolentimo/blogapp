@@ -1,13 +1,9 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>{{config('app.name', 'BlogApp')}}</title>
-    </head>
-    <body>
-
-    </body>
-</html>
+@section('content')
+<div class="jumbotron text-center">
+<h1>{{$title}}</h1>
+    <p>This is the index page</p>
+    <p><a class="btn btn-primary btn-lg" href="/login" role="button">Login</a>
+        <a class="btn btn-success btn-lg" href="/register" role="button">Register</a></p>
+@endsection    
