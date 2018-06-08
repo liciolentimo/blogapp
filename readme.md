@@ -6,7 +6,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-[![Coverage Status](https://coveralls.io/repos/github/liciolentimo/blogapp/badge.svg?branch=master)](https://coveralls.io/github/liciolentimo/blogapp?branch=master)
+<a href='https://coveralls.io/github/liciolentimo/blogapp?branch=master'><img src='https://coveralls.io/repos/github/liciolentimo/blogapp/badge.svg?branch=master' alt='Coverage Status' /></a>
+
 
 ## About Laravel
 
