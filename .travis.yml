@@ -12,9 +12,9 @@ before_script:
   - curl -s http://getcomposer.org/installer | php
   
 
-script:
-  - php vendor/bin/phpunit --coverage-clover build/coverage/xml
+# script:
+  # - php vendor/bin/phpunit --coverage-clover build/coverage/xml
 
 after_script:
-  - php vendor/bin/codacycoverage clover build/coverage/xml
+  # - php vendor/bin/codacycoverage clover build/coverage/xml
   - phpunit Tests/ --coverage-clover=coverage.xml
