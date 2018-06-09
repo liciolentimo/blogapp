@@ -41,6 +41,11 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+// Add this line in your config section
+$app->configure('tagging');
+// Add this line in your service provider section
+$app->register(Conner\Tagging\Providers\LumenTaggingServiceProvider::class);
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

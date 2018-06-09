@@ -148,6 +148,8 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Unisharp\Ckeditor\ServiceProvider::class,
+        \Conner\Tagging\Providers\TaggingServiceProvider::class,
+
 
         /*
          * Package Service Providers...
