@@ -17,3 +17,4 @@ script:
 
 after_script:
   - php vendor/bin/codacycoverage clover build/coverage/xml
+  - phpunit Tests/ --coverage-clover=coverage.xml
